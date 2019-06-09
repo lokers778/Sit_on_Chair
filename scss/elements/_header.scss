@@ -1,0 +1,39 @@
+header {
+  background-color: black;
+  height: 65px;
+  color: white;
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 65px;
+  line-height: 65px;
+}
+  ul {
+    list-style: none
+  }
+    font-size:25px;
+
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  li {
+    display: inline-block;
+    text-transform: uppercase;
+  a{
+    text-decoration: none;
+  }
+  }
+&:hover .dropdown-content{
+  position: absolute;
+  display: block;
+  background-color: black;
+}
+
+}
+.dropdown-content {
+  display: none;
+}
