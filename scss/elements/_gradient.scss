@@ -20,14 +20,27 @@
 }
 
 button {
-  width: 250px;
-  height: 50px;
+  width: 300px;
+  height: 60px;
   border-radius: 15px;
   background-color: #25C8AB;
   color: white;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 25px;
   margin: 0 auto;
   line-height: 50px;
 }
+
+  .post__content{
+    padding-top:120px;
+text-align: center;
+    font-size:27px;
+    h1{
+      font-size: 60px;
+      margin-bottom:50px;
+    }
+    p{
+      margin-bottom: 10px;
+    }
+  }
 }
