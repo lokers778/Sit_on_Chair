@@ -10,6 +10,20 @@
   display:flex;
   justify-content: space-between;
   align-items: flex-end;
+  h3:first-child{
+    MARGIN-LEFT:20px;
+    margin-top: 20px;
+    position:absolute;
+    align-self: flex-start;
+    font-size:40px;
+  &:after{
+    display: block;
+    content: "";
+    width:400px;
+    height: 5px;
+    background-color: #25C8AB;
+  }
+  }
 }
 .big_box{
   font-size:35px;
@@ -74,17 +88,23 @@ h3{
   }
   button {
     position: relative;
-    width: 200px;
+    width: 150px;
     height: 50px;
-    border-radius: 10%;
+    border-radius: 20px;
     color: white;
     background-color: #25C8AB;
-    margin: 40px 155px;
+    margin: 40px 185px;
+    font-size:30px;
+    border:none;
+  }
+  #button1{
+    margin-top:190px;
+  }
+  #button2{
+    margin-top:115px;
   }
 
-  div:nth-child(2) button{
-    margin-top:185px;
-  }
+
   &:hover{
     background-color: #25C8AB;
 
