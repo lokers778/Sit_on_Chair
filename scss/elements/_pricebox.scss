@@ -12,12 +12,14 @@
   align-items: flex-end;
 }
 .big_box{
+  font-size:35px;
   width: 30%;
   height: 73%;
   background-color: white;
   border:1px lightgray solid;
   margin-bottom: 5%;
   position: relative;
+
   .big_circle{
     width:95px ;
     height: 95px;
@@ -36,7 +38,7 @@
 }
   }
 h3{
-  margin-top:40px ;
+  margin-top:70px ;
   text-align: center;
   font-size: 40px;
   font-weight: 500;
@@ -48,11 +50,67 @@ h3{
     width:200px;
     height:200px;
     border:1px lightgray solid;
-    margin:0 auto;
+    margin:40px auto;
     text-align:center;
     font-size:45px;
     color:lightgray;
     font-weight: 700;
     padding:54px;
   }
+  div:nth-child(4n+2),div:nth-child(4n){
+    background-color: darkgrey;
+    height:9%;
+    text-align: center;
+    padding:17px;
+    color:grey;
+  }
+
+  div.lightgrey{
+    background-color:lightgrey;
+    height:9%;
+    text-align: center;
+    padding:17px;
+    color:grey;
+  }
+  button {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 10%;
+    color: white;
+    background-color: #25C8AB;
+    margin: 40px 155px;
+  }
+
+  div:nth-child(2) button{
+    margin-top:185px;
+  }
+  &:hover{
+    background-color: #25C8AB;
+
+    border:1px #25C8AB solid;
+    h3{
+      color:white;
+    }
+    .price_circle{
+      background-color: white;
+      color:#25C8AB;
+    }
+    div:nth-child(4n+2),div:nth-child(4n){
+      background-color: white;
+    }
+.big_circle{
+  background-color: #25C8AB;
+  border:1px #25C8AB solid;
+}
+    .small_circle{
+      background-color: white;
+    }
+button{
+  color:#25C8AB;
+  background-color: white;
+}
+
+  }
+
 }
