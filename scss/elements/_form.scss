@@ -1,9 +1,88 @@
 
 .form {
-  height: 900px;
+  height: 800px;
   background-color: white;
 }
 
 .form .main_width{
-
+  h3{
+    margin-top: 15px;
+    text-transform: uppercase;
+position: absolute;
+    font-size: 40px;
+  }
+span{
+  margin-top: 60px;
+  display: block;
+  width: 400px;
+  height: 5px;
+  background-color: #25C8AB;
+  position: absolute;
+}
+  form {
+    display: flex;
+    justify-content: space-between;
+    div:nth-child(3) {
+      display: flex;
+      flex-direction: column;
+      height: 700px;
+      width:60%;
+      margin-top: 70px;
+      input{
+        margin:20px 20px;
+        height: 12%;
+        border:1px solid #25C8AB;
+        font-size: 35px;
+        padding: 10px;
+        &:nth-child(1){
+          margin-top: 70px;
+        }
+      }
+      textarea{
+        margin:20px 20px;
+        height: 32%;
+        border:1px solid #25C8AB;
+        font-size: 35px;
+        padding: 10px;
+      }
+    }
+    div:nth-child(4){
+      height:700px;
+      width: 40%;
+      margin-top: 70px;
+        font-size: 30px;
+      color:darkgrey;
+      margin-left: 40px;
+      input[type=checkbox]{
+        &:checked{
+          color:green;
+        }
+        width: 7%;
+        height: 7%;
+        font-size: 20px;
+        color:#25C8AB!important;
+        border:1px solid #25C8AB;
+      }
+      input[type=submit]{
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 30px;
+        width: 70%;
+        height: 10%;
+        border:1px solid #25C8AB;
+        color:white;
+        background-color: #25C8AB;
+        border-radius: 15px;
+        margin-left: 50px;
+      }
+      div{
+        height: 350px;
+        background-image: url("../images/red_chair.png");
+        background-repeat: no-repeat;
+      background-size: contain;
+        margin-bottom: 20px;
+        margin-left: 50px;
+      }
+    }
+  }
 }
